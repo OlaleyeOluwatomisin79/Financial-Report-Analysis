@@ -23,7 +23,10 @@ This analysis reviews company sales, discounts, profit, and manufacturing costs 
   - `Profit` — net profit after costs  
   - `Discount` — total discounts applied  
   - `ManufacturingCost` — production costs  
-  - `Product`, `Segment`, `Country` — categories for breakdown  
+  - `Product`, `Segment`, `Country` — categories for breakdown
+  
+<img width="1366" height="768" alt="Screenshot (127)" src="https://github.com/user-attachments/assets/53a32252-eb4c-45d2-a2a0-d4c7ada48d68" />
+
 
 ### Data Preprocessing
 - Converted dates to year–month format.  
@@ -58,15 +61,33 @@ This analysis reviews company sales, discounts, profit, and manufacturing costs 
   - Manufacturing Cost by **Product**  
   - Manufacturing Cost by **Segment**  
   - Monthly Manufacturing Cost Trend
+  
+![Financial report_1 (1)](https://github.com/user-attachments/assets/a0b977af-26a7-441c-809b-0b0387b689e4)
+
+![Financial report_2 (1)](https://github.com/user-attachments/assets/dd2c2201-0a3e-46a1-ac35-0a25374ee6cb)
 
 ### Conclusion / Recommendations
-- Discounts boosted volume but cut into margins; large discounts need closer review.  
-- Focus on profitable products like Paseo while monitoring high-cost products such as VTT.  
-- Limit deep discounting in segments where margin loss outweighs volume gains.  
-- Add product-level margin tracking for better pricing decisions.  
+
+The analysis shows clear trade-offs between sales growth and profitability. Discounts have been effective in driving higher sales volumes, but at the cost of reduced margins. Certain products and segments are performing strongly, while others require closer monitoring to avoid eroding overall profitability.  
+
+#### 🔎 Key Conclusions
+- 📉 **Discounts vs Margins:** Discounts boosted sales volume but significantly reduced margins. The total discounts granted ($7.06M) represent more than half of total profit ($13.02M), highlighting a need for stricter discount policies.  
+- 📊 **Product Performance:** Paseo stands out as a profitable product, while VTT, despite high sales, carries heavy manufacturing costs that reduce overall profitability.  
+- 🌍 **Segment & Region Trends:** The Government segment contributes the most to revenue but also absorbs higher costs. Regional trends show the U.S. and Germany as strong performers, while other markets contribute less consistently.  
+- 📆 **Seasonality:** Late-year peaks suggest seasonal demand patterns, which should be planned for in terms of production and promotional strategy.  
+
+#### 💡 Recommendations
+1. 🛑 **Review Large Discounts:** Deep discounts need tighter controls. Conduct a margin impact analysis before granting discounts above a set threshold.  
+2. 💰 **Prioritize Profitable Products:** Focus sales efforts on Paseo and other strong-margin products, while reviewing VTT’s cost structure or pricing to improve contribution.  
+3. 🎯 **Segment-Specific Discounting:** Avoid blanket discounts. Tailor discount levels by segment and country to balance competitiveness with profitability.  
+4. 📈 **Margin Tracking:** Implement product-level gross margin dashboards to monitor profitability in real time. This will help sales teams make informed pricing and discounting decisions.  
+5. 🔄 **Continuous Monitoring:** Reassess discount strategies quarterly, testing whether incremental sales from discounts are worth the lost margin.  
+6. 🏭 **Manufacturing Efficiency:** Investigate unit manufacturing costs at high volumes to identify opportunities for cost savings and better capacity planning.  
+
+> 🚀 **Next Step:** Integrate product-level profitability and discount analytics into the business reporting process to guide data-driven pricing and growth strategies.
 
 ### Tools
-- **Power BI** — dashboards and visuals  
-- **Excel** — Data Preprocessing  
+- **Excel** — Data Preprocessing 
+- **Power BI** — dashboards and visuals 
 
-
+*Thanks for reading through — I hope you found the insights useful!*  
